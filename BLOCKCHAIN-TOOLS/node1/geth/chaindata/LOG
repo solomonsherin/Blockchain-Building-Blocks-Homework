@@ -1,0 +1,28 @@
+=============== Jun 19, 2021 (EDT) ===============
+12:56:56.415405 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:56:56.574460 db@open opening
+12:56:56.576455 version@stat F·[] S·0B[] Sc·[]
+12:56:56.640285 db@janitor F·2 G·0
+12:56:56.640285 db@open done T·65.8249ms
+12:56:56.681895 db@close closing
+12:56:56.682849 db@close done T·954.4µs
+=============== Jun 19, 2021 (EDT) ===============
+13:12:32.028951 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:12:32.029468 version@stat F·[] S·0B[] Sc·[]
+13:12:32.029468 db@open opening
+13:12:32.029986 journal@recovery F·1
+13:12:32.035308 journal@recovery recovering @1
+13:12:32.110942 memdb@flush created L0@2 N·622 S·50KiB "\x02d\xfc..\x19Ba,v430":"\xfe\x88\xcf..H\xef\xcc,v362"
+13:12:32.116263 version@stat F·[1] S·50KiB[50KiB] Sc·[0.25]
+13:12:32.273224 db@janitor F·3 G·0
+13:12:32.273224 db@open done T·243.7564ms
+=============== Jun 21, 2021 (EDT) ===============
+19:29:23.156180 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:29:23.235896 version@stat F·[1] S·50KiB[50KiB] Sc·[0.25]
+19:29:23.235896 db@open opening
+19:29:23.236449 journal@recovery F·1
+19:29:23.239761 journal@recovery recovering @3
+19:29:23.298898 memdb@flush created L0@5 N·264 S·10KiB "Dat..ion,v624":"unc..own,v887"
+19:29:23.303828 version@stat F·[2] S·61KiB[61KiB] Sc·[0.50]
+19:29:23.423885 db@janitor F·4 G·0
+19:29:23.423885 db@open done T·187.9889ms
